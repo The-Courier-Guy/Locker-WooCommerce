@@ -1,0 +1,50 @@
+{
+    "packages": [
+        {
+            "name": "pudo/pudo-common",
+            "version": "v0.5.2",
+            "version_normalized": "0.5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/The-Courier-Guy/PUDO_Common.git",
+                "reference": "eecf996fa3dc4bc79c8b6cf65fb09c62f12b85ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/The-Courier-Guy/PUDO_Common/zipball/eecf996fa3dc4bc79c8b6cf65fb09c62f12b85ba",
+                "reference": "eecf996fa3dc4bc79c8b6cf65fb09c62f12b85ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "time": "2026-07-16T11:11:02+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pudo\\Common\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "App Inlet (Pty) Ltd",
+                    "email": "info@appinlet.com"
+                }
+            ],
+            "description": "PUDO common class for modules.",
+            "homepage": "https://github.com/The-Courier-Guy/PUDO_Common",
+            "support": {
+                "issues": "https://github.com/The-Courier-Guy/PUDO_Common/issues",
+                "source": "https://github.com/The-Courier-Guy/PUDO_Common/tree/v0.5.2"
+            },
+            "install-path": "../pudo/pudo-common"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

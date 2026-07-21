@@ -1,0 +1,15 @@
+{
+  "require": {
+    "woocommerce/woocommerce-sniffs": "^1.0",
+    "ext-zlib": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.10",
+    "wp-coding-standards/wpcs": "^3.0"
+  }
+}
