@@ -1,0 +1,198 @@
+.print-pudo-waybill_order-list::after {
+	font-family: woocommerce !important;
+	content: '\e019' !important;
+}
+
+#pudo-locker-destination {
+	max-width: 530px;
+}
+
+div #pudostatusnotice:first-child {
+	display: none;
+	color: red;
+}
+
+/* The Modal (background) */
+.pudo-modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 100000; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+	min-width: 700px;
+	min-height: 400px;
+}
+
+/* Modal Content */
+.pudo-modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	border: 1px solid #888;
+	width: 90%;
+	height: 90%; /* Full height */
+	min-width: 650px;
+	min-height: 400px;
+	position: relative;
+	overflow: auto;
+}
+
+/* The Close Button */
+.pudo-close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	right: 5px;
+	z-index: 999;
+	width: 31px;
+	text-align: center;
+	background-color: white;
+}
+
+.pudo-close:hover,
+.pudo-close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#pudo-wrapper {
+	/*overflow: hidden; !* will contain if #first is longer than #second *!*/
+	height: 100%;
+}
+
+#pudo-table-container table {
+	width: auto !important;
+}
+
+#pudo-first {
+	padding: 20px 10px 20px 10px;
+	float: left; /* add this */
+	overflow: hidden; /* if you don't want #second to wrap below #first */
+	width: 30%;
+}
+
+#pudo-header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+#pudo-second {
+	width: 60vw;
+	float: right;
+	overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#pudo-map-container {
+	position: relative;
+	padding: 20px 20px 20px 10px;
+	width: 70%;
+	float: right;
+	height: 100%;
+}
+
+#pudo-map {
+	position: absolute;
+	width: 98%;
+	top: 20px;
+	left: 0px;
+	margin-right: 39px;
+	height: 92%;
+}
+
+td.sorting_1, th.sorting.sorting_asc {
+	font-size: 16px;
+}
+
+.pudo-h4 {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	margin: 0;
+	font-size: 18px;
+	flex: 1;
+	min-width: 200px;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.pudo-marker-title {
+	width: 30px;
+	height: 50px;
+}
+
+.pnodesktop {
+	display: none;
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+	#pudo-first {
+		width: 40%;
+	}
+
+	#pudo-map-container {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.pudo-modal-desc {
+		text-align: center;
+		padding-left: 20px;
+		margin-bottom: 0px;
+	}
+
+	.pudo-modalTitle {
+		text-align: center;
+	}
+
+	.pnomobile {
+		display: none;
+	}
+
+	.pnodesktop {
+		display: block;
+	}
+
+	.pudo-modal {
+		padding-top: 20px;
+		width: 100%;
+		min-width: 100%;
+	}
+
+	.pudo-modal-content {
+		min-width: 150px;
+	}
+
+	#pudo-first {
+		width: 100%;
+		padding-bottom: 0px;
+	}
+
+	#pudo-map-container {
+		position: relative;
+		padding: 0px;
+		width: 100%;
+		float: right;
+		height: 100%;
+	}
+
+	#pudo-modalTitle {
+		margin-right: 0px;
+	}
+
+	#pudo-table-container {
+		display: none !important;
+	}
+}
